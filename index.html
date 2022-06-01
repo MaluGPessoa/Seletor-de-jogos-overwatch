@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/Imagens/diva.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Diva</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="diva" data-name="Diva">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/diva.jpg" alt="Personagem Diva">
+                </li>
+
+                <li class="personagem" id="genji" data-name="Genji">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/genji.jpg" alt="Personagem Genji">
+                </li>
+
+                <li class="personagem" id="hanzo" data-name="Hanzo">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/hanzo.jpg" alt="Personagem Hanzo">
+                </li>
+
+                <li class="personagem" id="moira" data-name="Moira">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/moira.jpg" alt="Personagem Moira">
+                </li>
+
+                <li class="personagem" id="mercy" data-name="Mercy">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/mercy.jpg" alt="Personagem Mercy">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="reaper" data-name="Reaper">
+                    <span class="tag">2P</span>
+                    <img src="./src/Imagens/reaper.jpg" alt="Personagem Reaper">
+                </li>
+
+                <li class="personagem" id="widowmaker" data-name="Widowmaker">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/widowmaker.jpg" alt="Personagem Widowmaker">
+                </li>
+
+                <li class="personagem" id="reinhardt" data-name="Reinhardt">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/reinhardt.jpg" alt="Personagem Reinhardt">
+                </li>
+
+                <li class="personagem" id="tracer" data-name="Tracer">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/tracer.jpg" alt="Personagem Tracer">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/Imagens/reaper.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Reaper</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
