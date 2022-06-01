@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'ethnocentric';
+  src: url('../fontes/ethnocentric\ rg.otf'); 
+}
+
+@font-face {
+  font-family: 'ethnocentric italic';
+  src: url('../fontes/ethnocentric\ rg\ it.otf');
+}
